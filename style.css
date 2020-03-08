@@ -1,0 +1,65 @@
+:root {
+    --bg-color: #feb402;
+    --white-text-color: #ffffff;
+    --bg-grey: #555555;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+}
+
+#large-bg {
+    height: 100vh;
+    width: 50%;
+    background: url("./img/img_1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+   }
+ 
+
+#about-me {
+    top: 100px;
+    right: 80px;
+    position: absolute;
+    width: 750px;
+}
+
+#title {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#profession span {
+    color: var(--bg-color);
+}
+
+#about-me p {
+    font-size: 35px;
+    line-height: 50px;
+}
+
+#action-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a.a-button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background: var(--bg-color);
+    color: var(--white-text-color);
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid var(--bg-color);
+}
+
+a.a-button:hover {
+    cursor: pointer;
+    background: var(--bg-grey);
+}
