@@ -1,0 +1,1 @@
+A front page of a website project at WAW FOUNDATION
